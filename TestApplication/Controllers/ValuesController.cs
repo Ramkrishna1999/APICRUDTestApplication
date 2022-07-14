@@ -21,6 +21,7 @@ namespace TestApplication.Controllers
             using (NewShowRoomEntities1 en = new NewShowRoomEntities1())
             {
                 return  en.Products.ToList();
+                //Added code
             }
             
         }
