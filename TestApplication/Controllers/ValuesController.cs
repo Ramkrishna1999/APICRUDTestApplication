@@ -23,7 +23,13 @@ namespace TestApplication.Controllers
                 return  en.Products.ToList();
                 //Added code
             }
-            
+
+            using (NewShowRoomEntities1 en = new NewShowRoomEntities1())
+            {
+                return en.Products.ToList();
+                //Added code
+            }
+
         }
 
         // GET api/values/5
