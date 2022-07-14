@@ -13,6 +13,7 @@ namespace TestApplication.Controllers
             ViewBag.Title = "Home Page";
 
             return View();
+            //Changes for home
         }
     }
 }
