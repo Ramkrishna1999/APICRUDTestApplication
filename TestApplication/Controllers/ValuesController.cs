@@ -12,7 +12,7 @@ namespace TestApplication.Controllers
         //static NewShowRoomEntities1 DbContext;
         //public ValuesController()
         //{
-        //    DbContext = new NewShowRoomEntities1();
+        //    DbContext = new NewShowRoomEntities1(); 
         //}
 
         // GET api/values
